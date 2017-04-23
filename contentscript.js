@@ -55,7 +55,7 @@ storage.get({
 
   // 2. mathjax itself
   s = document.createElement('script');
-  s.src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML";
+  s.src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML";
   (document.head||document.documentElement).appendChild(s);
 
   // 3. mods to render mathjax
